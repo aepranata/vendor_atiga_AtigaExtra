@@ -1,0 +1,29 @@
+soong_namespace {
+	imports: [
+	],
+}
+
+android_app_import {
+	name: "Maps",
+	owner: "gms",
+	apk: "prebuilts/app/Maps/Maps.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PrebuiltGmail",
+	owner: "gms",
+	apk: "prebuilts/app/PrebuiltGmail/PrebuiltGmail.apk",
+	overrides: ["Email"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
