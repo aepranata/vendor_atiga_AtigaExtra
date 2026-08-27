@@ -6,7 +6,7 @@ soong_namespace {
 android_app_import {
 	name: "Maps",
 	owner: "gms",
-	apk: "prebuilts/app/Maps/Maps.apk",
+	apk: "prebuilts/apps/Maps/Maps.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -18,7 +18,7 @@ android_app_import {
 android_app_import {
 	name: "PrebuiltGmail",
 	owner: "gms",
-	apk: "prebuilts/app/PrebuiltGmail/PrebuiltGmail.apk",
+	apk: "prebuilts/apps/PrebuiltGmail/PrebuiltGmail.apk",
 	overrides: ["Email"],
 	preprocessed: true,
 	presigned: true,
