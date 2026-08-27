@@ -1,5 +1,5 @@
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/gms/prebuilts
+    vendor/atiga/AtigaExtra
 
 # Google Maps
 PRODUCT_PACKAGES += \
